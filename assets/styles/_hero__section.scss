@@ -1,0 +1,267 @@
+*{
+    font-family: Montserrat;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+max-width: 1350px;
+}
+.header{
+       background-image: url(/assets/images/bg.png);
+    width: 1349px;
+    height: 950px;
+}
+
+.container{
+        width: 1349px;
+height: 100px;
+background: rgba(0, 0, 0, 0.40);
+.trucking{
+    padding: 25px 40px;
+}
+&__imgs{
+    margin-left: 260px;
+margin-top: -60px;
+}
+.phone{
+        margin-left: 40px;
+}
+.container__ul{
+    margin-top: -56px;
+    display: flex;
+        justify-content: end;
+}
+&__titil{
+    margin-top: -24px;
+    margin-left: 200px;
+        color: var(--white, #F3F3F3);
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; 
+}
+}
+.znachok_btn{
+    display: none;
+ }
+a{
+    color: var(--white, #F3F3F3);
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    text-decoration: none;
+}
+ul{
+    margin-right: 10px;
+    margin-top: -1px;
+        gap: 15px;
+        align-items: center;
+    justify-content: end;
+    display: flex;
+    list-style: none;
+}
+   .hero__titil{
+    color: var(--white, #F3F3F3);
+font-size: 56px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    padding: 90px 140px;
+}
+.btno{
+    display: flex;
+width: 160px;
+height: 100px;
+padding: 10px 15px;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+background: var(--purple, #6A369C);
+border: none;
+color: var(--white, #F3F3F3);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.hero__subtitil{
+    margin-top: -60px;
+    color: var(--white, #F3F3F3);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+    margin-left: 140px;
+}
+.button{
+    border: none;
+    display: inline-flex;
+padding: 10px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: var(--white, #F3F3F3);
+    color: var(--black, #000);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; 
+}
+.btn{
+    border: 2px solid var(--white, #F3F3F3);
+    margin-left: 10px;
+        display: inline-flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--white, transparent);
+   color: var(--white, white);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+}  
+.buttons{
+    margin-top: 40px;
+margin-left: 140px;
+} 
+.titil{
+    margin-left: 140px;
+    margin-top: 100px;
+    color: var(--white, #F3F3F3);
+        font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero__number{
+    margin-top: 60px;
+    margin-left: 140px;
+    color: var(--logo-light-green, #04FF14);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    display: flex;
+    gap: 40px;
+}
+.hero2{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.hero__number1{
+
+    margin-top: 5px;
+    gap: 50px;
+    display: flex;
+}
+.hero3{
+margin-left: 140px;
+}
+.hero4{
+margin-left: 100px;
+}
+.hero__text{
+    color: var(--white, #F3F3F3);
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    margin-top: 10px;
+    margin-left: 140px;
+    display: flex;
+    gap: 40px;
+}
+.hero__text2{
+    margin-left: 60px;
+}
+.hero_section_text{
+    gap: 40px;
+    display: flex;
+}
+.hero__text3{
+    margin-left: 20px;
+
+}
+.years{
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.znachok{
+    display: none;
+}
+
+@media(max-width:374px){
+.btno{
+display: none;
+}
+
+}
+
+
+@media(max-width:768px){
+    ul{
+        display: none;
+    }
+    .container__imgs{
+        display: none;
+    }
+    .hero__number{
+        font-size: 24px;
+        margin-left: 37px;
+        margin-top: -180px;
+    }
+    .hero__text{
+      margin-left: 37px;
+    }
+    .years{
+                margin-left: 37px;
+    }
+    .hero__text2{
+        margin-left: 200px;
+    }
+    .hero__text3{
+        margin-left: 70px;
+    }
+    .hero__text4{
+        margin-left: 35px;
+    }
+    .class{
+        margin-top: -34px;
+        margin-right: 162px;
+    }
+        .btno{
+        position: absolute;
+        justify-content: none;
+       display: flex none;
+    }
+    .znachok{
+        position: absolute;
+        margin-right: 200px;
+        margin-top: 10px;
+         width: 35px;
+     height: 20px;
+      display: flex;
+           }
+           .header{
+            height: 550px;
+           }
+           .titil{
+            padding: 50px 0;
+                        margin-left: 40px;
+           }
+           .container__mixin{
+            margin-top: -5px;
+                       width: 1348px;
+            height: 277px;
+            background: var(--bg, #212529)
+           }
+           .main__section{
+            margin-top: 280px;
+           }
+                   
+    
+}
+
